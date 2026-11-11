@@ -12,7 +12,8 @@ def get_os_info():
         "OS Release": platform.release(),
         "Architecture": platform.machine(),
         "Hostname": socket.gethostname(),
-        "Platform": platform.platform()
+        "Platform": platform.platform(),
+        "Python Version": platform.python_version(),
     }
 
     return information
